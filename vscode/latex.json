@@ -1,0 +1,210 @@
+{
+  // Place your snippets for latex here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "new exercise": {
+    "prefix": ["nex", "new-exercise"],
+    "body": [
+      "\\documentclass{article}",
+      "\\usepackage{amsmath}",
+      "\\title{$1}",
+      "\\author{Neil Dotan}",
+      "\\date{\\today}",
+      "\\begin{document}",
+      "\\maketitle",
+      "\\section{$2}",
+      "$0",
+      "\\end{document}"
+    ],
+    "description": "new homework exercise template."
+  },
+  "sum": {
+    "prefix": "sum",
+    "body": "\\sum_{$1}^n $0",
+    "description": "standart sum expression"
+  },
+
+  "half": {
+    "prefix": "hf",
+    "body": "\\frac{1}{2}",
+    "description": "the sgin 1/2"
+  },
+
+  "vv": {
+    "prefix": "vv",
+    "body": "\\vec{v}",
+    "description": "v as vector"
+  },
+
+  "uu": {
+    "prefix": "uu",
+    "body": "\\vec{u}",
+    "description": "u as vector"
+  },
+
+  "rr": {
+    "prefix": "rr",
+    "body": "\\vec{r}",
+    "description": "r as vector"
+  },
+
+  "dt": {
+    "prefix": "dt",
+    "body": "\\frac{d}{dt}",
+    "description": "direvative on t"
+  },
+
+  "eq": {
+    "prefix": "eq",
+    "body": ["$$$1$$", "$0"],
+    "description": "center eq line"
+  },
+  "el": {
+    "prefix": "el",
+    "body": "$$1$ $0",
+    "description": "center eq line"
+  },
+  "ro": {
+    "prefix": "ro",
+    "body": "\\rho ",
+    "description": "the gric latter ro"
+  },
+  "te": {
+    "prefix": "te",
+    "body": "\\theta ",
+    "description": "the gric latter ro"
+  },
+  "ww": {
+    "prefix": "ww",
+    "body": "\\omega ",
+    "description": "the gric latter ro"
+  },
+  "co": {
+    "prefix": "co",
+    "body": "\\cos($1) $0",
+    "description": "the gric latter ro"
+  },
+  "al": {
+    "prefix": "al",
+    "body": "\\alpha ",
+    "description": "the gric latter ro"
+  },
+
+  "be": {
+    "prefix": "be",
+    "body": "\\beta ",
+    "description": "the gric latter ro"
+  },
+
+  "ga": {
+    "prefix": "ga",
+    "body": "\\gamma ",
+    "description": "the gric latter ro"
+  },
+
+  "si": {
+    "prefix": "si",
+    "body": "\\sin($1) $0",
+    "description": "the gric latter ro"
+  },
+
+  "gr": {
+    "prefix": "gr",
+    "body": "\\vec{\\nabla} $0",
+    "description": "the gric latter ro"
+  },
+  "div": {
+    "prefix": "di",
+    "body": "\\vec{\\nabla} \\cdot \\vec{$1} $0",
+    "description": "the gric latter ro"
+  },
+  "curl": {
+    "prefix": "cu",
+    "body": "\\vec{\\nabla} \\times \\vec{$1} $0",
+    "description": "the gric latter ro"
+  },
+  "parital dirivtive": {
+    "prefix": "dp",
+    "body": "\\frac{\\partial $1}{\\partial $2} $0",
+    "description": "the gric latter ro"
+  },
+  "epsilon levi-chevite": {
+    "prefix": "dp",
+    "body": "\\frac{\\partial $1}{\\partial $2} $0",
+    "description": "the gric latter ro"
+  },
+  "exponnet": {
+    "prefix": "ex",
+    "body": "e ^ {$1} $0",
+    "description": "the gric latter ro"
+  },
+  "lambda": {
+    "prefix": "la",
+    "body": "\\lambda $0",
+    "description": "the gric latter ro"
+  },
+
+  "big omega": {
+    "prefix": "om",
+    "body": "\\Omega $0",
+    "description": "the gric latter ro"
+  },
+
+  "group phranceis": {
+    "prefix": "go",
+    "body": "\\{ $1 \\\\} $0",
+    "description": "the gric latter ro"
+  },
+  "phi": {
+    "prefix": "ph",
+    "body": "\\varphi $0",
+    "description": "the gric latter ro"
+  },
+
+  "pp": {
+    "prefix": "pp",
+    "body": "($1) $2",
+    "description": "the gric latter ro"
+  },
+
+  "foreach": {
+    "prefix": "ff",
+    "body": "\\forall $0",
+    "description": "the gric latter ro"
+  },
+
+  "exists": {
+    "prefix": "ee",
+    "body": "\\exists $0",
+    "description": "the gric latter ro"
+  },
+
+  "probability space": {
+    "prefix": "prob",
+    "body": "()",
+    "description": "the gric latter ro"
+  },
+
+  "ch": {
+    "prefix": "cho",
+    "body": ["\\left(\\begin{array}{l}", "$1 \\", "$2", "\\end{array}\\right)"],
+    "description": "the gric latter ro"
+  },
+
+  "mul": {
+    "prefix": "mul",
+    "body": "\\prod_{$1}^{$2} $0",
+    "description": "the gric latter ro"
+  }
+}

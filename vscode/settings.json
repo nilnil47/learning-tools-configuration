@@ -1,0 +1,74 @@
+{
+  "workbench.colorTheme": "Default High Contrast",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "tabnine.experimentalAutoImports": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "window.zoomLevel": -1,
+  "notebook.lineNumbers": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "latex-workshop.intellisense.commandsJSON.replace": {
+    "latex-workshop.latexindent.path": "/Library/TeX/texbin/latexindent"
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["Shift+q"],
+      "after": [
+        "m",
+        "a",
+        "/",
+        "<leader>",
+        "$",
+        "<Enter>",
+        "N",
+        "v",
+        "N",
+        "y",
+        "`",
+        "a",
+        "p",
+        "%",
+        "w"
+      ]
+    },
+
+    {
+      "before": ["Shift+w"],
+      "after": [
+        "m",
+        "a",
+        "/",
+        "<leader>",
+        "$",
+        "<leader>",
+        "$",
+        "<Enter>",
+        "N",
+        "v",
+        "N",
+        "y",
+        "`",
+        "a",
+        "p",
+        "%",
+        "a",
+        "$",
+        "<escape>"
+      ]
+    }
+  ]
+}
